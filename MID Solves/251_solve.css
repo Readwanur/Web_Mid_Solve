@@ -1,0 +1,126 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100vh;
+  width: 100vw;
+}
+.header {
+  width: 100vw;
+  height: 10vh;
+  border-bottom: 2px solid lightgrey;
+  align-items: center;
+  justify-content: space-between;
+}
+.main-body {
+  width: 100vw;
+  height: 90vh;
+  display: flex;
+}
+.left-body {
+  height: 100vh;
+  width: 40vw;
+  background-color: #0976a7;
+  color: white;
+  padding: 50px 150px;
+}
+.right-body {
+  height: 100vh;
+  width: 60vw;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 50px 250px;
+  /* background-color: rebeccapurple; */
+}
+.form_div {
+  width: 30vw;
+  /* background-color: red;    */
+}
+.left-header {
+  text-align: center;
+  font-size: large;
+}
+.right-header {
+  gap: 50px;
+  padding-right: 5px;
+}
+.right-header ul {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  list-style: none;
+}
+.button {
+  background-color: #0976a7;
+  padding: 13px 25px;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-weight: bold;
+  font-size: medium;
+  cursor: pointer;
+}
+.flex {
+  display: flex;
+}
+.sign-in-text {
+  font-size: xx-large;
+  font-weight: bold;
+  text-align: center;
+}
+.google-btn {
+  width: 30vw;
+  background-color: white;
+  border: 1px solid grey;
+  padding: 10px 25px;
+  color: grey;
+  border-radius: 5px;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  gap: 10px;
+}
+.btm-btn {
+  align-items: center;
+  gap: 10px;
+}
+a {
+  text-decoration: underline;
+  color: #e90606;
+}
+.icons {
+  height: 15px;
+  width: 15px;
+}
+.form {
+  border-top: 2px solid grey;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+}
+.input {
+  background-color: #eff1f3;
+  border: 2px solid black;
+  border-radius: 5px;
+  text-align: left;
+}
+.submit {
+  background-color: #e90606;
+  color: white;
+  font-weight: bold;
+}
+form a {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  padding-top: 8px;
+  padding-bottom: 2px;
+}
+.footer p {
+  text-align: center;
+  padding-bottom: 15px;
+}
