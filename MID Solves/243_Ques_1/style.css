@@ -1,0 +1,137 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+.nav{
+    height: 10%;
+    width: 96%;
+    background-color: white;
+    margin: 30px;
+    position: fixed;
+    border-radius: 5px;
+}
+.flex-row{
+    display: flex;
+    align-items: center;
+}
+.flex-col{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.nav-left{
+    width: 50%;
+    padding: 0px 10px;
+}
+.nav-right{
+    width: 50%;
+    list-style: none;
+    justify-content: right;
+    padding: 0px 10px;
+    gap: 30px;
+}
+.nav-right button{
+    padding: 10px;
+    border-radius: 8px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+#theme-color{
+    color: rgb(106, 178, 154);
+}
+.grey{
+    color: grey;
+}
+#theme-bgColor{
+    background-color: rgb(106, 178, 154);
+}
+.main-body{
+    height: 85%;
+}
+.left-body{
+    height: 100%;
+    width: 50%;
+    font-size: 50px;
+    font-weight: bolder;
+    justify-content: center;
+    background-color: whitesmoke;
+}
+.left-body-title{
+    color: rgb(14, 2, 92)   ;
+}
+.left-body-footer{
+    font-weight: normal;
+    font-size: medium;
+    color: grey;
+    margin: 15px;
+}
+.left-body button{
+    padding: 15px 20px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+}
+.right-body {
+    height: 100%;
+    width: 50%;
+    background: url("home-design.jpg");
+}
+.mid-body{
+    gap: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.mid-body button{
+    padding: 18px 25px;
+    border-radius: 40px;
+    border: none;
+    color: white;
+    font-size: x-large;
+    font-weight: bolder;
+}
+.footer{
+    height: 15%;
+    width: 100%;
+    justify-content: space-evenly;      
+}
+.footer input{
+    padding: 15px;
+    padding-right: 150px;
+    border-radius: 5px;
+    border: none;
+}
+.footer form{
+    gap: 30px;
+}
+.footer button{
+    padding: 15px 150px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background-color: rgb(14, 2, 92);
+    cursor: pointer;
+}
+.footer select{
+    padding: 15px;
+    padding-right: 150px;
+    border-radius: 5px;
+    border: none;
+    color: grey;
+}
+.btn{
+    width: 80%;
+    text-align: left;
+}
+.left-body-header{
+    width: 80%;
+}
