@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.nav{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0vh 2vw;
+}
+.body{
+    height: 90%;
+    width: 100%;
+    padding: 5vh 1vw;
+    background-color: #eceff4;
+    display: flex;
+}
+.headColor{
+    color: #3f46a4;
+}
+.bodyColor{
+    color:  rgb(83, 83, 83);
+}
+.navRight{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 35vw;
+}
+.navRight a{
+    text-decoration: none;
+}
+.fg{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #eff6fe;
+    border-radius: 8px;
+}
+.mainBody{
+    display: flex;
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 3px 3px 25px black;
+}
+.leftBody{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: center;
+    background-color: #eff6fe;
+    gap: 39px;
+    width: fit-content;
+    border-radius: 8px;
+}
+.checkList{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    gap: 15px;
+}
+.checkList p{
+    color: #71ADEC;
+}
+.box{
+    margin-right: 5px;
+    padding: 1px 10px;
+    background-color: #50ad50;
+}
+.rightBody{
+    background-color: white;
+    width: 40%;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 25px;
+}
+.leftBody h1{
+    color: #3f46a4;
+}
+.leftButton button{
+    padding: 10px 35px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+#Lbtn1{
+    color: white;
+    background-color: #50ad50;
+    border: none;
+    border-radius: 4px;
+}
+#Lbtn2{
+    color: #3f46a4;
+    background-color: #eceff4;
+    border: 2px solid #3f46a4;
+    border-radius: 4px;
+}
+.form{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+}
+.agreeMent{
+    color: black;
+    margin: 0px 5px;
+    display: flex;
+    gap: 5px;
+}
+.greenColor{
+    color: #50ad50;
+}
+.form button{
+    background-color: #3f46a4;
+    font-weight: bolder;
+    color: white;
+    padding: 15px 45px;
+    border: none;
+    border-radius: 5px;
+    font-size: large;
+    cursor: pointer;
+}
+.form input{
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+a{
+    text-decoration: none;
+}
+#ent{
+    margin-left: 25px;
+}
