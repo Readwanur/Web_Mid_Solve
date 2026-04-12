@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Practice</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html,
+        body {
+            height: 100%;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 10px;
+        }
+
+        .main {
+            height: 100%;
+            width: 50%;
+            display: grid;
+            grid-template-rows: 14% 40% 30% 12%;
+            gap: .5em;
+            border: 5px solid green;
+            padding: 5px;
+        }
+
+        .tomato {
+            background-color: tomato;
+        }
+
+        .box2 {
+            background-color: white;
+            display: flex;
+            align-content: center;
+            justify-content: center;
+            border: 5px solid green;
+        }
+        .divLeft{
+            height: 100%;
+            width: 50%;
+            border-right: 7px solid green;
+        }
+        
+        .divRight{
+            height: 100%;
+            width: 50%;
+            display: grid;
+            grid-template-columns: 100%;                   
+            grid-template-rows: 50%;
+            gap: .5rem;
+            padding: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="tomato">
+
+        </div>
+
+        <div class="box2">
+            <div class="divLeft" >
+                <div style=" padding: 5px; background-color: white; height: 100%;">
+                    <div style="background-color: tomato; padding: 5px; width: 100%; height: 100%;"></div>
+                </div>
+            </div>
+            <div class="divRight">
+                <div class="tomato"></div>
+                <div class="tomato"></div>
+            </div>
+        </div>
+
+        <div class="tomato">
+        </div>
+        <div class="tomato">
+
+        </div>
+    </div>
+</body>
+
+</html>
