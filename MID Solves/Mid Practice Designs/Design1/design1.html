@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Design1</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html,
+        body {
+            height: 100%;
+            width: 100%;
+        }
+
+        .main {
+            height: 100%;
+            width: 100%;
+            background-color: #212121;
+            display: flex;
+        }
+
+        .leftPart {
+            height: 100%;
+            width: 25%;
+            background-color: rgb(19, 19, 45);
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .title {
+            border-bottom: 2px solid rgb(56, 56, 80);
+            padding: 5px 15px;
+            padding-bottom: 25px;
+            display: flex;
+            align-items: center;
+            gap: .8rem;
+        }
+
+        .title p {
+            color: white;
+            font-size: large;
+            font-weight: bold;
+        }
+
+        .logo {
+            background-color: rgb(96, 0, 230);
+            border-radius: 50%;
+            color: white;
+            font-size: large;
+            font-weight: bolder;
+            padding: 5%;
+        }
+
+        .nav {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+            border: none;
+            margin: 25px 0px;
+        }
+
+        #highlight {
+            background-color: rgb(96, 0, 230);
+            border-left: 3px solid rgb(225, 220, 231);
+            color: white;
+        }
+
+        .nav button {
+            text-align: left;
+            padding: 8px 35px;
+            font-size: medium;
+            border: none;
+            background-color: rgb(19, 19, 45);
+            cursor: pointer;
+            color: grey;
+        }
+
+        .footer {
+            border-top: 2px solid rgb(56, 56, 80);
+        }
+
+        .rightPart {
+            height: 100%;
+            width: 75%;
+            /* background-color: wheat; */
+            display: flex;
+            flex-direction: column;
+        }
+
+        .upper {
+            height: 8%;
+            width: 100%;
+            background-color: white;
+            color: rgb(19, 19, 45);
+            font-size: larger;
+            font-weight: bolder;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 25px;
+        }
+
+        #name {
+            background-color: rgb(225, 233, 236);
+            color: rgb(96, 0, 230);
+            border: 1px solid rgb(133, 205, 231);
+            padding: 3%;
+        }
+
+        #search {
+            padding: 6px;
+            border: 1px solid grey;
+            border-radius: 15px;
+            text-align: left;
+            font-weight: bold;
+        }
+
+        .upperRight {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .lower {
+            height: 92%;
+            width: 100%;
+            background-color: lightgrey;
+            font-weight: bolder;
+            font-size: large;
+            padding: 3%;
+            display: flex;
+            justify-content: space-between;
+            gap: 1rem;
+        }
+
+        .cards {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 1fr 0fr 0fr;
+            gap: 1rem;
+            color: white;
+            margin-top: 15px;
+        }
+
+        .main-content {
+            width: 70%;
+        }
+
+        .cards-info {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            padding: 5%;
+        }
+
+        .cards-info button {
+            border: none;
+            border-radius: 8px;
+            padding: 10px;
+            font-weight: bolder;
+
+        }
+
+        .cards div {
+            height: 200px;
+            border-radius: 8px;
+        }
+
+        .box2 {
+            color: black;
+        }
+
+        #normal-text {
+            font-weight: normal;
+            font-size: medium;
+        }
+
+        #rates {
+            border-radius: 8px;
+            padding: 5px 15px;
+            background-color: rgb(225, 165, 217);
+        }
+
+        .lowerRight {
+            width: 30%;
+            height: 100%;
+            background-color: lightgray;
+        }
+
+        .booking-card {
+            width: 100%;
+            height: 55%;
+            border-radius: 8px;
+            background-color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            padding: 5%;
+        }
+
+        .booking-mid {
+            display: flex;
+            flex-direction: column;
+            gap: .5rem;
+            border-bottom: 2px solid lightgray;
+            padding-bottom: 5%;
+        }
+
+        .booking-footer {
+            display: flex;
+            flex-direction: column;
+            gap: .5rem;
+        }
+
+        .booking-footer button {
+            background-color: tomato;
+            color: white;
+            font-weight: bolder;
+            font-size: medium;
+            border: none;
+            border-radius: 8px;
+            padding: 8px 15px;
+        }
+
+        .booking-title {
+            border-bottom: 2px solid lightgrey;
+            display: flex;
+            padding-bottom: 5%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="leftPart">
+            <div>
+                <div class="title">
+                    <span class="logo">FP</span>
+                    <p>FitPulse</p>
+                </div>
+                <div class="nav">
+                    <button id="highlight">Dashboard</button>
+                    <button>Schedule</button>
+                    <button>My Bookings</button>
+                    <button>Memberships</button>
+                </div>
+            </div>
+            <div class="footer nav">
+                <button style="margin-top: 15px;">Settings</button>
+                <button>Log Out</button>
+            </div>
+        </div>
+        <div class="rightPart">
+            <div class="upper">
+                <p>Class Booking</p>
+                <div class="upperRight">
+                    <input type="search" name="" id="search" placeholder="Search Classes...">
+                    <span class="logo" id="name">JD</span>
+                </div>
+            </div>
+            <div class="lower">
+                <div class="main-content">
+                    <p>Today's Classes</p>
+
+                    <div class="cards">
+                        <div class="cards-info"
+                            style="background: linear-gradient(rgb(169, 111, 223), rgb(87, 29, 114));">
+                            <div style="display: flex; align-items: baseline; justify-content: space-between;">
+                                <p>Morning Yoga</p>
+                                <span class="logo" id="rates" style="background-color: rgb(177, 123, 227);">$15</span>
+                            </div>
+                            <div>
+
+                                <p id="normal-text">08:00 AM - 09:00 AM</p>
+                                <p id="normal-text">Instructor: Sarah T.</p>
+                            </div>
+                            <button>Add to Cart</button>
+                        </div>
+                        <div>
+                            <div class="cards-info" style="background: linear-gradient(orange, tomato);">
+                                <div style="display: flex; align-items: baseline; justify-content: space-between;">
+                                    <p>HIIT Blast</p>
+                                    <span class="logo" id="rates"
+                                        style="background-color: rgb(250, 173, 32);">$20</span>
+                                </div>
+                                <div>
+
+                                    <p id="normal-text">10:30 AM - 11:15 AM</p>
+                                    <p id="normal-text">Instructor: Mike R.</p>
+                                </div>
+                                <button>Add to Cart</button>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="cards-info"
+                                style="background: linear-gradient(rgb(155, 29, 151), rgb(233, 186, 231));">
+                                <div style="display: flex; align-items: baseline; justify-content: space-between;">
+                                    <p class="box2">Core Pilates</p>
+                                    <span class="logo box2" id="rates" style="background: rgb(188, 88, 185);">$18</span>
+                                </div>
+                                <div>
+
+                                    <p id="normal-text" class="box2">01:00 PM - 02:00 PM</p>
+                                    <p id="normal-text" class="box2">Instructor: Emma W.</p>
+                                </div>
+                                <button>Add to Cart</button>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="cards-info"
+                                style="background: linear-gradient(rgb(24, 243, 177), rgb(32, 150, 150));">
+                                <div style="display: flex; align-items: baseline; justify-content: space-between;">
+                                    <p class="box2">Spin Cycling</p>
+                                    <span class="logo box2" id="rates"
+                                        style="background: rgb(120, 238, 203);">$22</span>
+                                </div>
+                                <div>
+
+                                    <p id="normal-text" class="box2">05:30 PM - 06:30 PM</p>
+                                    <p id="normal-text" class="box2">Instructor: David L.</p>
+                                </div>
+                                <button>Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="lowerRight">
+                    <div class="booking-card">
+                        <div class="booking-title">
+                            <p>Booking Summary</p>
+                        </div>
+                        <div class="booking-mid">
+                            <div
+                                style="display: flex; align-items: center; padding: 3%; justify-content: space-between; background-color: rgb(240, 239, 239); border-left: 5px solid purple; border-radius: 8px;">
+                                <div>
+                                    <p>HIIT Blast</p>
+                                    <p id="normal-text">10:30 AM</p>
+                                </div>
+                                <div>
+                                    <p>$20</p>
+                                </div>
+                            </div>
+                            <div>
+                                <div
+                                    style="display: flex; align-items: center; padding: 3%; justify-content: space-between; background-color: rgb(240, 239, 239); border-left: 5px solid purple; border-radius: 8px;">
+                                    <div>
+                                        <p>Spin Cycling</p>
+                                        <p id="normal-text">06:30 PM</p>
+                                    </div>
+                                    <div>
+                                        <p>$22</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="booking-footer">
+                            <div id="normal-text"
+                                style="display: flex; justify-content: space-between; align-items: center;">
+                                <p>Subtotal</p>
+                                <p>$42.00</p>
+                            </div>
+                            <div id="normal-text"
+                                style="display: flex; justify-content: space-between; align-items: center;">
+                                <p>Tax (5%)</p>
+                                <p>$2.10</p>
+                            </div>
+                            <div style="display: flex; justify-content: space-between; align-items: center;">
+                                <p>Total</p>
+                                <p>$44.10</p>
+                            </div>
+                            <button>Confirm Booking</button>
+                            <p id="normal-text" style="color: lightgray; text-align: center;">Non-refundable after 24
+                                hours</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
