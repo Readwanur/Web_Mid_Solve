@@ -1,15 +1,190 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-html,body{
+html,
+body {
     height: 100%;
     width: 100%;
 }
-.main{
+
+.main {
     height: 100%;
     width: 100%;
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(190, 190, 190);
+    padding: 15px;
+}
+
+.leftPart {
     background-color: #212121;
+    width: 20%;
+}
+
+.title {
+    color: rgb(190, 190, 190);
+    border-bottom: 1px solid rgb(83, 83, 117);
+    padding: 15px;
+}
+
+.tabs {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+}
+
+#selectTab {
+    background-color: rgb(92, 92, 252);
+    border-left: 4px solid lightskyblue;
+    padding-left: 15px;
+}
+
+.rightPart {
+    width: 80%;
+    background-color: rgb(213, 223, 233);
+}
+
+#search {
+    padding: 8px;
+    border: 1px solid rgb(207, 204, 204);
+    border-radius: 5px;
+}
+
+.headerRight {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+.logo {
+    border-radius: 50%;
+    background-color: rgb(214, 214, 214);
+    padding: 10px;
+    border: 2px solid darkgrey;
+    font-weight: bolder;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 10%;
+    padding: 0px 15px;
+}
+
+.infos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1em;
+    padding: 15px;
+}
+
+.blue {
+    background-color: rgb(92, 92, 252);
+}
+
+.green {
+    background-color: rgb(35, 170, 35);
+}
+
+.black {
+    background-color: #212121;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: center;
+    gap: 1em;
+    padding: 25px;
+    color: white;
+    border-radius: 8px;
+}
+
+.dot {
+    border-radius: 50%;
+    background-color: rgb(197, 6, 6);
+    padding: 10%;
+    position: absolute;
+    top: 25%;
+    left: 85%;
+    transform: translate(-25%, -85%);
+}
+
+.admittances {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.status {
+    display: grid;
+    grid-template-rows: repeat(3, auto-fill);
+    gap: 1em;
+
+}
+
+.cards2 {
+    border-radius: 8px;
+}
+
+.cards-info {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 8px;
+    padding: 15px;
+}
+
+.condition {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 33%;
+}
+
+.condition span {
+    background-color: rgb(158, 221, 158);
+    color: darkgreen;
+    font-weight: bolder;
+    border-radius: 25px;
+    padding: 5px 0px;
+    width: 30%;
+    text-align: center;
+}
+
+#red {
+    background-color: rgb(252, 185, 185);
+    color: rgb(214, 1, 1);
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    width: 33.33%;
+}
+
+button {
+    color: #212121;
+    font-weight: bolder;
+    border: 1px solid lightslategray;
+    padding: 8px 10px;
+    border-radius: 8px;
+    cursor: pointer;
 }

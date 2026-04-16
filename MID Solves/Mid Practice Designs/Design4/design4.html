@@ -1,49 +1,92 @@
 <!DOCTYPE html>
- <html>
-    <head>
-        <title>design4</title>
-        <link rel="stylesheet" href="design4.css">
-    </head>
+<html>
 
-    <body>
-        <div class="main">
-            <div class="leftPart">
-                <div class="title">
-                    <h2>CareDash</h2>
-                </div>
-                <div class="tabs">
-                    <a href="#">Ward Overview</a>
-                    <a href="#">Patient Directory</a>
-                    <a href="#">Bed Management</a>
+<head>
+    <title>design4</title>
+    <link rel="stylesheet" href="design4.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="leftPart">
+            <div class="title">
+                <h2>CareDash</h2>
+            </div>
+            <div class="tabs">
+                <a href="#" id="selectTab">Ward Overview</a>
+                <a href="#">Patient Directory</a>
+                <a href="#">Bed Management</a>
+            </div>
+        </div>
+        <div class="rightPart">
+            <div class="header">
+                <h2>Ward Overview</h2>
+                <div class="headerRight">
+                    <input id="search" type="search" name="" id="" placeholder="Search patients...">
+                    <span class="logo">RN <span class="dot"></span></span>
                 </div>
             </div>
-            <div class="rightPart">
-                <div class="header">
-                    <h2>Ward Overview</h2>
-                    <div class="headerRight">
-                        <input type="search" name="" id="" placeholder="Search patients...">
-                        <span class="logo">RN</span>
-                    </div>
+            <div class="infos">
+                <div class="cards blue">
+                    <p>TOTAL PATIENTS</p>
+                    <h2>42</h2>
                 </div>
-                <div class="infos">
-                    <div class="cards">
-                        <p>TOTAL PATIENTS</p>
-                        <h2>42</h2>
-                    </div>
-                    <div class="cards">
-                        <p>AVAILABLE BEDS</p>
-                        <h2>8</h2>
-                    </div>
-                    <div class="cards">
-                        <p>CRITICAL CASES</p>
-                        <h2>3</h2>
-                    </div>
+                <div class="cards green">
+                    <p>AVAILABLE BEDS</p>
+                    <h2>8</h2>
                 </div>
-                <div class="admittances">
-                    <h3>Recent Admittances</h3>
-                    <div class="status"></div>
+                <div class="cards black">
+                    <p>CRITICAL CASES</p>
+                    <h2>3</h2>
+                </div>
+            </div>
+            <div class="admittances">
+                <h3>Recent Admittances</h3>
+                <div class="status">
+                    <div class="cards2">
+                        <div class="cards-info">
+                            <div style="display: flex; width: 33.33%; flex-direction: column;">
+                                <h3>John Doe</h3>
+                                <p>Room 302A</p>
+                            </div>
+                            <div class="condition "><span id="red">High Priority</span></div>
+                            <div class="button">
+                                <button>View Details</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="status">
+                        <div class="cards2">
+                            <div class="cards-info">
+                                <div style="display: flex; width: 33.33%; flex-direction: column; gap: .5em;">
+                                    <h3>Sarah Smith</h3>
+                                    <p>Room 305B</p>
+                                </div>
+                                <div class="condition"><span>stable</span></div>
+                                <div class="button">
+                                    <button>View Details</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="status">
+                        <div class="cards2">
+                            <div class="cards-info">
+                                <div style="display: flex; width: 33.33%; flex-direction: column; gap: .5em;">
+                                    <h3>Michael Brown</h3>
+                                    <p>Room 310C</p>
+                                </div>
+                                <div class="condition"><span>Stable</span></div>
+                                <div class="button">
+                                    <button>View Details</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-    </body>
- </html>
+    </div>
+</body>
+
+</html>
