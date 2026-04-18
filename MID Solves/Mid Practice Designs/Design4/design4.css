@@ -43,6 +43,7 @@ a {
     background-color: rgb(92, 92, 252);
     border-left: 4px solid lightskyblue;
     padding-left: 15px;
+    color: white;
 }
 
 .rightPart {

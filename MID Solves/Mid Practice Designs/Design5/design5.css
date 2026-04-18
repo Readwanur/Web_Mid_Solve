@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: #212121;
+  font-family: monospace;
+}
+.main {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.header {
+  height: 8%;
+  width: 100%;
+  background-color: #212121;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  padding: 0px 1em;
+}
+.logo {
+  background-color: rebeccapurple;
+  border-radius: 50%;
+  padding: 1%;
+  font-weight: bolder;
+  font-size: large;
+}
+.search {
+  padding: 8px 18px;
+  background-color: #4a4a4a;
+  border: none;
+  border-radius: 8px;
+  width: 20%;
+  font-weight: bold;
+}
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr auto;
+  grid-template-rows: 1fr 1fr;
+  gap: 1em;
+  height: 80%;
+}
+.content {
+  height: 92%;
+  width: 100%;
+  background-color: rgb(208, 231, 239);
+  padding: 2em 15%;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+.extra {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1em;
+}
+.item {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+}
+.extra button {
+  background-color: #212121;
+  color: white;
+}
+.graphic {
+  height: 50%;
+  width: 100%;
+  background-color: rgb(106, 11, 250);
+  border-radius: 8px 8px 0px 0px;
+}
+.info {
+  height: 40%;
+  display: flex;
+  flex-direction: column;
+  margin: 0.5em;
+  justify-content: space-between;
+}
+.blue {
+  background-color: rgb(35, 168, 221);
+}
+.orange {
+  background-color: tomato;
+}
+.cyan {
+  background-color: darkcyan;
+}
+button {
+  font-weight: bold;
+  padding: 6px;
+  border: 1px solid rgb(169, 169, 169);
+  border-radius: 8px;
+}
+.timing {
+  background-color: rgb(169, 169, 169);
+  width: fit-content;
+  padding: 5px 8px;
+  border-radius: 15px;
+  font-weight: bold;
+}
