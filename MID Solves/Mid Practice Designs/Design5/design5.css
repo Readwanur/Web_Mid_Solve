@@ -17,14 +17,14 @@ body {
   flex-direction: column;
 }
 .header {
-  height: 8%;
+  height: 10%;
   width: 100%;
   background-color: #212121;
   display: flex;
   align-items: center;
   justify-content: space-between;
   color: white;
-  padding: 0px 1em;
+  padding: 15px 1em;
 }
 .logo {
   background-color: rebeccapurple;
@@ -42,31 +42,38 @@ body {
   font-weight: bold;
 }
 .cards {
-  display: grid;
-  grid-template-columns: 1fr 1fr auto;
-  grid-template-rows: 1fr 1fr;
-  gap: 1em;
-  height: 80%;
+  background-color: white;
+  border-radius: 8px;
+}
+.cards:last-child{
+  grid-column: 3;
+  grid-row: 1/3;
+  height: fit-content;
+  background-color: white;
+}
+.cards:nth-child(1){
+ grid-column: 1/3;
+ background-color: rgb(208, 231, 239);
 }
 .content {
-  height: 92%;
+  height: 100%;
   width: 100%;
   background-color: rgb(208, 231, 239);
-  padding: 2em 15%;
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: 1fr 1fr auto;
+  grid-template-rows: auto 1fr 1fr;
   gap: 1em;
+  padding: 65px 155px;
 }
 .extra {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  gap: 2.5em;
   padding: 1em;
 }
-.item {
-  background-color: white;
-  display: flex;
-  flex-direction: column;
+.drag{
+  border: 2px dotted grey;
+  padding: 5%;
   border-radius: 8px;
 }
 .extra button {
