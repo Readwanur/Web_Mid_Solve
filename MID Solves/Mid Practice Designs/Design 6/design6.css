@@ -8,173 +8,173 @@ body {
   height: 100%;
   width: 100%;
 }
-.white{
-    color: white;
+.white {
+  color: white;
 }
-.grey{
-    color: grey;;
+.grey {
+  color: grey;
 }
-.color-1{
-    background-color: rgb(5, 5, 48);
+.color-1 {
+  background-color: rgb(5, 5, 48);
 }
-.color-2{
-    background-color: rgb(53, 53, 241);
+.color-2 {
+  background-color: rgb(53, 53, 241);
 }
-.color-3{
-    background-color: purple;
+.color-3 {
+  background-color: purple;
 }
-.color-4{
-    background-color: tomato;
+.color-4 {
+  background-color: tomato;
 }
-.color-5{
-    background-color: green;
+.color-5 {
+  background-color: green;
 }
-.tColor-1{
-    color: red;
+.tColor-1 {
+  color: red;
 }
-.tColor-2{
-    color: tomato;
+.tColor-2 {
+  color: tomato;
 }
-.tColor-3{
-    color: green;
+.tColor-3 {
+  color: green;
 }
-.tColor-4{
-    color: purple;
+.tColor-4 {
+  color: purple;
 }
-.gap{
-    gap: 1em;
+.gap {
+  gap: 1em;
 }
-.flex{
-    display: flex;
+.flex {
+  display: flex;
 }
-.col{
-    flex-direction: column;
+.col {
+  flex-direction: column;
 }
-.space-bet{
-    justify-content: space-between;
+.space-bet {
+  justify-content: space-between;
 }
-.x-center{
-    justify-content: center;
+.x-center {
+  justify-content: center;
 }
-.y-center{
-    align-items: center;
+.y-center {
+  align-items: center;
 }
-.window{
-    height: 100%;
-    width: 100%;
+.window {
+  height: 100%;
+  width: 100%;
 }
-.nav{
-    width: 15%;
+.nav {
+  width: 15%;
 }
-.content{
-    width: 85%;
+.content {
+  width: 85%;
 }
-.header{
-    height: 15%;
-    padding: 0px 25px;
+.header {
+  height: 15%;
+  padding: 0px 25px;
 }
-.main-content{
-    height: 85%;
-    background-color: rgb(228, 228, 228);
+.main-content {
+  height: 85%;
+  background-color: rgb(228, 228, 228);
 }
-a{
-    text-decoration: none;
-    padding: 15px 25px;
+a {
+  text-decoration: none;
+  padding: 15px 25px;
 }
-#select{
-    border-left: 4px solid rgb(158, 158, 252);
+#select {
+  border-left: 4px solid rgb(158, 158, 252);
 }
-.navHeader h1{
-    padding: 15px 25px;
-    border-bottom: 1px solid rgb(105, 105, 105);
+.navHeader h1 {
+  padding: 15px 25px;
+  border-bottom: 1px solid rgb(105, 105, 105);
 }
-.navFooter{
-    border-top: 1px solid rgb(105, 105, 105);
+.navFooter {
+  border-top: 1px solid rgb(105, 105, 105);
 }
-.logo{
-    border-radius: 50%;
-    padding: 10px 13px;
+.logo {
+  border-radius: 50%;
+  padding: 10px 13px;
 }
-.upper{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: .5fr;
-    padding: 25px;
+.upper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 0.5fr;
+  padding: 25px;
 }
-.cards1{
-    height: fit-content;
-    background-color: white;
-    border-radius: 15px;
-    border-top: 5px solid rgb(53, 53, 241);
-    padding: 15px;
+.cards1 {
+  height: fit-content;
+  background-color: white;
+  border-radius: 15px;
+  border-top: 5px solid rgb(53, 53, 241);
+  padding: 15px;
 }
-.change{
-    border-top: 5px solid tomato;
+.change {
+  border-top: 5px solid tomato;
 }
-.change2{
-    border-top: 5px solid green;
+.change2 {
+  border-top: 5px solid green;
 }
-.lower{
-    height: 55%;
-    display: grid;
-    grid-template-columns: 1.5fr 2.5fr;
-    grid-template-rows: 450px;
-    padding: 0px 25px;
+.lower {
+  height: 55%;
+  display: grid;
+  grid-template-columns: 1.5fr 2.5fr;
+  grid-template-rows: 450px;
+  padding: 0px 25px;
 }
-.cards2{
-    background-color: white;
-    border-radius: 15px;
-    padding: 15px;
+.cards2 {
+  background-color: white;
+  border-radius: 15px;
+  padding: 15px;
 }
-.cardsTitle{
-    border-bottom: 1px solid rgb(218, 218, 218);
-    padding: 5px;
+.cardsTitle {
+  border-bottom: 1px solid rgb(218, 218, 218);
+  padding: 5px;
 }
-.load{
-    height: 10px ;
-    width: 100%;
-    background-color: grey;
-    border-radius: 15px;
+.load {
+  height: 10px;
+  width: 100%;
+  background-color: grey;
+  border-radius: 15px;
 }
-.width-85{
-    width: 85%;
-    height: 100%;
-    border-radius: 15px;
+.width-85 {
+  width: 85%;
+  height: 100%;
+  border-radius: 15px;
 }
-.width-60{
-    width: 60%;
-    height: 100%;
-    border-radius: 15px;
+.width-60 {
+  width: 60%;
+  height: 100%;
+  border-radius: 15px;
 }
-.width-45{
-    width: 45%;
-    height: 100%;
-    border-radius: 15px;
+.width-45 {
+  width: 45%;
+  height: 100%;
+  border-radius: 15px;
 }
-.width-92{
-    width: 92%;
-    height: 100%;
-    border-radius: 15px;
+.width-92 {
+  width: 92%;
+  height: 100%;
+  border-radius: 15px;
 }
-.exCard{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+.exCard {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
 }
-.sub-cards{
-    border-radius: 8px;
-    border: 1px solid rgb(208, 208, 208);
-    padding: 15px;
+.sub-cards {
+  border-radius: 8px;
+  border: 1px solid rgb(208, 208, 208);
+  padding: 15px;
 }
-button{
-    background-color: rgb(220, 220, 220);
-    border-radius: 8px;
-    border: none;
-    padding: 10px;
-    font-weight: bolder;
-    font-size: large;
+button {
+  background-color: rgb(220, 220, 220);
+  border-radius: 8px;
+  border: none;
+  padding: 10px;
+  font-weight: bolder;
+  font-size: large;
 }
-.sub-cards2{
-    border: 1px dotted grey;
-    border-radius: 8px;
+.sub-cards2 {
+  border: 1px dotted grey;
+  border-radius: 8px;
 }

@@ -4,6 +4,56 @@
     <link rel="stylesheet" href="design7.css" />
   </head>
   <body>
-      
+    <div class="window flex x-center y-center">
+      <div class="cards flex col space-bet">
+        <h1>Create New Ticket</h1>
+        <form action="" class="flex col gap space-bet">
+          <div class="flex gap">
+            <div class="field flex col">
+              <label for="">Customer Name</label>
+              <input class="inp" placeholder="e.g. Jane Doe" />
+            </div>
+            <div class="field flex col">
+              <label for="">Email Address</label>
+              <input class="inp" placeholder="jane@example.com" />
+            </div>
+          </div>
+          <!-- Category & Level -->
+          <div class="field flex col">
+            <label for="">Issue Category</label>
+            <select class="inp">
+              <option value="">Choose a Category</option>
+            </select>
+            
+          </div>
+          <div class="flex col gap">
+            <label for="">Priority Level</label>
+            <div class="flex gap">
+              <label for="">
+              <input type="radio" />
+              Low
+            </label>
+            <label for="">
+              <input type="radio" />
+              Medium
+            </label>
+            <label for="">
+              <input type="radio" />
+              High
+            </label>
+            </div>
+          </div>
+          <!-- Issue Desc -->
+           <div class="flex col">
+            <label for="">Issue Description</label>
+            <textarea class="inp" name="" id="" placeholder="Describe the problem in details..."></textarea>
+           </div>
+           <div class="buttons flex gap">
+            <button class="button" id="btn1">Clear Form</button>
+            <button class="button">Submit Ticket</button>
+           </div>
+        </form>
+      </div>
+    </div>
   </body>
 </html>
