@@ -1,10 +1,177 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-html,body{
-    height: 100%;
-    width: 100%;
-    background-color: #212121;
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: #212121;
+}
+.main {
+  height: 100%;
+  width: 100%;
+  display: flex;
+}
+.nav {
+  height: 100%;
+  width: 25%;
+  background-color: rgb(2, 10, 70);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5em;
+}
+.nav h1 {
+  background-color: rgb(59, 66, 123);
+  padding: 15px;
+  text-align: center;
+}
+#selectTab {
+  background-color: rgb(52, 55, 83);
+  border-left: 3px solid white;
+}
+.tabs {
+  display: flex;
+  flex-direction: column;
+}
+a {
+  text-decoration: none;
+  color: white;
+  padding: 15px;
+  font-size: large;
+}
+.content {
+  height: 100%;
+  width: 75%;
+  background-color: rgb(193, 193, 193);
+  display: flex;
+  flex-direction: column;
+}
+.header {
+  height: 10%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 25px;
+}
+.search {
+  width: 25%;
+  border-radius: 15px;
+  border: none;
+  padding: 10px 15px;
+}
+.main-content {
+  height: 90%;
+  width: 100%;
+  padding: 15px 25px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr auto;
+  gap: 1.5em;
+}
+.cards {
+  background-color: white;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+}
+.cards:nth-child(4) {
+  grid-column: 1 / 4;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto 1fr;
+  gap: 1.5em;
+  padding: 15px 25px;
+}
+.sub-cards {
+  background-color: red;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  color: white;
+  gap: 1.5em;
+  height: fit-content;
+  padding: 15px 20px;
+}
+.sub-cards:nth-child(2) {
+  background-color: tomato;
+}
+.sub-cards:nth-child(3) {
+  background-color: blue;
+}
+.sub-cards:nth-child(4) {
+  background-color: rgb(13, 200, 200);
+}
+.sub-cards:first-child {
+  grid-column: 1 / 4;
+  background-color: white;
+  color: black;
+}
+#cyan {
+  background-color: rgb(175, 213, 213);
+}
+#blue {
+  background-color: rgb(156, 156, 246);
+}
+.type {
+  background-color: rgb(255, 170, 155);
+  padding: 5px 15px;
+  border-radius: 15px;
+}
+.theme {
+  background-color: tomato;
+  height: 65%;
+  width: 100%;
+  border-radius: 15px 15px 0px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 15px;
+  color: white;
+}
+.info {
+  height: 35%;
+  width: 100%;
+  border-radius: 15px 15px 0px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 15px;
+  color: white;
+}
+.load {
+  height: 10px;
+  width: 100%;
+  background-color: rgb(227, 227, 227);
+  border-radius: 15px;
+}
+.sub-load {
+  height: 100%;
+  width: 75%;
+  border-radius: 15px;
+  background-color: rgb(90, 187, 90);
+}
+.sub-info {
+  display: flex;
+  color: grey;
+  align-items: center;
+  justify-content: space-between;
+}
+.purple {
+  background-color: purple;
+  width: 90%;
+}
+.violet {
+  background-color: violet;
+  width: 45%;
+}
+.orange {
+  background-color: orange;
+}
+.rumon {
+  background-color: blueviolet;
 }
