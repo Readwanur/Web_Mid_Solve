@@ -1,27 +1,118 @@
-<!DOCTYPE html>
-
+<!doctype html>
 <html>
-    <head>
-        <title>Design 5</title>
-        <link rel="stylesheet" href="design6.css">
-    </head>
-    <body>
-        <div class="main">
-            <div class="leftPart">
-                <div class="upper">
-                    <h1>EduDash</h1>
-                    <a href="#" id="selectTab">Dashboard</a>
-                    <a href="#">My Courses</a>
-                    <a href="#">Assignments</a>
-                    <a href="#">Grades</a>
-                    <a href="#">Schedule</a>
-                </div>
-                <div class="lower">
-                    <a href="#">Settings</a>
-                    <a href="#" id="red">Sign Out</a>
-                </div>
-            </div>
-            <div class="rightPart"></div>
+  <head>
+    <link rel="stylesheet" href="design6.css" />
+  </head>
+  <body>
+    <div class="window flex">
+      <div class="nav color-1 flex col space-bet">
+        <div class="navHeader flex col gap">
+          <h1 class="white">EduDash</h1>
+          <div class="tabs flex col gap">
+            <a href="#" class="white color-2" id="select">Dashboard</a>
+            <a href="#" class="grey">My Courses</a>
+            <a href="#" class="grey">Assignments</a>
+            <a href="#" class="grey">Grades</a>
+            <a href="#" class="grey">Schedule</a>
+          </div>
         </div>
-    </body>
+        <div class="navFooter flex col">
+          <a href="#" class="grey">Settings</a>
+          <a href="#" class="tColor-1">Sign Out</a>
+        </div>
+      </div>
+      <div class="content flex col">
+        <div class="header flex y-center space-bet">
+          <div class="headerLeft">
+            <h2>Welcome back, David!</h2>
+            <p class="grey">
+              Here is your academic overview for this trimester.
+            </p>
+          </div>
+          <div class="headerRight flex y-center gap">
+            <span class="logo white color-2">D</span>
+            <p>David Smith</p>
+          </div>
+        </div>
+        <div class="main-content flex col ">
+          <div class="upper gap">
+            <div class="cards1 flex col gap">
+              <h3 class="grey">COURSES IN PROGRESS</h3>
+              <h1>5</h1>
+              <p class="grey">2 ending soon</p>
+            </div>
+            <div class="cards1 change flex col gap">
+              <h3 class="grey">PENDING ASSIGNMENTS</h3>
+              <h1>12</h1>
+              <p class="tColor-2">3 due this week</p>
+            </div>
+            <div class="cards1 change2 flex col gap">
+              <h3 class="grey">CURRENT CGPA</h3>
+              <h1>3.51</h1>
+              <p class="tColor-3">Top 10% of class</p>
+            </div>
+          </div>
+          <div class="lower gap">
+            <div class="cards2 flex col gap">
+              <h2 class="cardsTitle">Course Completion</h2>
+              <div class="comp flex y-center space-bet">
+                <p class="grey">Data Structues</p>
+                <p class="grey">85%</p>
+              </div>
+              <div class="load">
+                <div class="sub-load width-85 color-2"></div>
+              </div>
+              <div class="comp flex y-center space-bet">
+                <p class="grey">Machine Learning</p>
+                <p class="grey">60%</p>
+              </div>
+              <div class="load">
+                <div class="sub-load width-60 color-3"></div>
+              </div>
+              <div class="comp flex y-center space-bet">
+                <p class="grey">Web Engineering</p>
+                <p class="grey">45%</p>
+              </div>
+              <div class="load">
+                <div class="sub-load width-45 color-4"></div>
+              </div>
+              <div class="comp flex y-center space-bet">
+                <p class="grey">Database Systems</p>
+                <p class="grey">92%</p>
+              </div>
+              <div class="load">
+                <div class="sub-load width-92 color-5"></div>
+              </div>
+            </div>
+            <div class="cards2 flex col gap x-center">
+              <h2 class="cardsTitle">Upcoming Deadlines</h2>
+              <div class="exCard gap">
+                <div class="sub-cards flex col x-center gap">
+                    <p class="tColor-4">Machine Learning</p>
+                    <h3>Neural Network Model</h3>
+                    <p class="grey">Due: Oct 24, 11:59PM</p>
+                    <button>Submit Work</button>
+                </div>
+                <div class="sub-cards flex col x-center gap">
+                    <p class="tColor-4">Machine Learning</p>
+                    <h3>Neural Network Model</h3>
+                    <p class="grey">Due: Oct 24, 11:59PM</p>
+                    <button>Submit Work</button>
+                </div>
+                <div class="sub-cards flex col x-center gap">
+                    <p class="tColor-4">Machine Learning</p>
+                    <h3>Neural Network Model</h3>
+                    <p class="grey">Due: Oct 24, 11:59PM</p>
+                    <button>Submit Work</button>
+                </div>
+                <div class="sub-cards2 flex x-center y-center">
+                    <p class="grey">View All Assignments-></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>

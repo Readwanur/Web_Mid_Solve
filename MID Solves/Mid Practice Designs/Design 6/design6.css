@@ -1,57 +1,180 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-html,body{
-    height: 100%;
-    width: 100%;
-    background-color: #212121;
+html,
+body {
+  height: 100%;
+  width: 100%;
 }
-.main{
-    height: 100%;
-    width: 100%;
-    display: flex;
+.white{
+    color: white;
 }
-.leftPart{
-    height: 100%;
-    width: 20%;
-    background-color: #212121;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+.grey{
+    color: grey;;
 }
-.upper{
-    display: flex;
-    flex-direction: column;
+.color-1{
+    background-color: rgb(5, 5, 48);
+}
+.color-2{
+    background-color: rgb(53, 53, 241);
+}
+.color-3{
+    background-color: purple;
+}
+.color-4{
+    background-color: tomato;
+}
+.color-5{
+    background-color: green;
+}
+.tColor-1{
+    color: red;
+}
+.tColor-2{
+    color: tomato;
+}
+.tColor-3{
+    color: green;
+}
+.tColor-4{
+    color: purple;
+}
+.gap{
     gap: 1em;
 }
-.lower{
+.flex{
     display: flex;
-    flex-direction: column;
-    font-size: large;
-    border-top: 1px solid grey;
 }
-h1{
-    color: white;
-    border-bottom: 1px solid grey;
-    padding: .5em;
+.col{
+    flex-direction: column;
+}
+.space-bet{
+    justify-content: space-between;
+}
+.x-center{
+    justify-content: center;
+}
+.y-center{
+    align-items: center;
+}
+.window{
+    height: 100%;
+    width: 100%;
+}
+.nav{
+    width: 15%;
+}
+.content{
+    width: 85%;
+}
+.header{
+    height: 15%;
+    padding: 0px 25px;
+}
+.main-content{
+    height: 85%;
+    background-color: rgb(228, 228, 228);
 }
 a{
     text-decoration: none;
-    color: grey;
-    padding: 1em;
+    padding: 15px 25px;
 }
-#selectTab{
-    background-color: blueviolet;
-    border-left: 5px solid lightskyblue;
-    color: white;
+#select{
+    border-left: 4px solid rgb(158, 158, 252);
 }
-#red{
-    color: red;
+.navHeader h1{
+    padding: 15px 25px;
+    border-bottom: 1px solid rgb(105, 105, 105);
 }
-.rightPart{
-    height: 100%;
-    width: 80%;
+.navFooter{
+    border-top: 1px solid rgb(105, 105, 105);
+}
+.logo{
+    border-radius: 50%;
+    padding: 10px 13px;
+}
+.upper{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: .5fr;
+    padding: 25px;
+}
+.cards1{
+    height: fit-content;
     background-color: white;
+    border-radius: 15px;
+    border-top: 5px solid rgb(53, 53, 241);
+    padding: 15px;
+}
+.change{
+    border-top: 5px solid tomato;
+}
+.change2{
+    border-top: 5px solid green;
+}
+.lower{
+    height: 55%;
+    display: grid;
+    grid-template-columns: 1.5fr 2.5fr;
+    grid-template-rows: 450px;
+    padding: 0px 25px;
+}
+.cards2{
+    background-color: white;
+    border-radius: 15px;
+    padding: 15px;
+}
+.cardsTitle{
+    border-bottom: 1px solid rgb(218, 218, 218);
+    padding: 5px;
+}
+.load{
+    height: 10px ;
+    width: 100%;
+    background-color: grey;
+    border-radius: 15px;
+}
+.width-85{
+    width: 85%;
+    height: 100%;
+    border-radius: 15px;
+}
+.width-60{
+    width: 60%;
+    height: 100%;
+    border-radius: 15px;
+}
+.width-45{
+    width: 45%;
+    height: 100%;
+    border-radius: 15px;
+}
+.width-92{
+    width: 92%;
+    height: 100%;
+    border-radius: 15px;
+}
+.exCard{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+.sub-cards{
+    border-radius: 8px;
+    border: 1px solid rgb(208, 208, 208);
+    padding: 15px;
+}
+button{
+    background-color: rgb(220, 220, 220);
+    border-radius: 8px;
+    border: none;
+    padding: 10px;
+    font-weight: bolder;
+    font-size: large;
+}
+.sub-cards2{
+    border: 1px dotted grey;
+    border-radius: 8px;
 }

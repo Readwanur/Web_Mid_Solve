@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+.gap{
+    gap: 1em;
+}
+.flex{
+    display: flex;
+}
+.col{
+    flex-direction: column;
+}
+.space-bet{
+    justify-content: space-between;
+}
+.x-center{
+    justify-content: center;
+}
+.y-center{
+    align-items: center;
+}
